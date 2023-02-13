@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
         title: const Text('메인화면'),
       ),
       body: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 20,),
         child: ListView(
           children: [
             Container(
